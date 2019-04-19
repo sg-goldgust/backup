@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+
+<script>
+$(function(){
+$('h1').click(function() { alert("클릭했습니다."); });
+function btnclick() {
+$('h1').click();
+}
+});
+</script>
+<body>
+<h1>클릭하세요.</h1>
+<button type="button" onclick="btnclick();">클릭하기</button>
+</body>

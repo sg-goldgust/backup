@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=GoodsInfoEx/src&lt;edu.autocar.goodsinfo.command{Command.java[Command" modifiers="513" timestamp="1545888001556"/>
+<typeInfo handle="=mybatisex/src\/main\/java&lt;edu.autocar.mybatisex.dao{MemberDao.java[MemberDao" modifiers="513" timestamp="1546483069775"/>
+<typeInfo handle="=mybatisex/src\/main\/java&lt;edu.autocar.mybatisex.dao{GoodsInfoDao.java[GoodsInfoDao" modifiers="513" timestamp="1546415826416"/>
+<typeInfo handle="=Base/src&lt;edu.autocar.base.database{PaginationDao.java[PaginationDao" modifiers="513" timestamp="1546414923331"/>
+<typeInfo handle="=Base/src&lt;edu.autocar.base{Application.java[Application" modifiers="1" timestamp="1546848218863"/>
+<typeInfo handle="=tourguide/src\/main\/java&lt;edu.autocar.tourguide.app{Application.java[Application" modifiers="1" timestamp="1546846118226"/>
+<typeInfo handle="=tourguide/src\/main\/java&lt;edu.autocar.tourguide.command{Command.java[Command" modifiers="513" timestamp="1546561083239"/>
+<typeInfo handle="=Base/src&lt;edu.autocar.base.database{CrudDao.java[CrudDao" modifiers="513" timestamp="1545887329050"/>
+<typeInfo handle="=iotmonitor/src\/main\/java&lt;edu.autocar.iotmonitor.dao{SensorDao.java[SensorDao" modifiers="513" timestamp="1548309220115"/>
+<typeInfo handle="=iotmonitor/C:\/Users\/student\/.m2\/repository\/org\/eclipse\/paho\/org.eclipse.paho.client.mqttv3\/1.2.0\/org.eclipse.paho.client.mqttv3-1.2.0.jar&lt;org.eclipse.paho.client.mqttv3(MqttCallback.class[MqttCallback" modifiers="1537" timestamp="1548389629824"/>
+</typeInfoHistroy>

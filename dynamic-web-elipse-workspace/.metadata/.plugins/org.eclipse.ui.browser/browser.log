@@ -1,0 +1,35 @@
+
+3월 08, 2019 13:26:16.00 NEW SESSION
+3월 08, 2019 13:26:16.00 [6596:7060:0308/132616.000:ERROR:browser_process_sub_thread.cc(209)] Waited 123 ms for network service
+3월 08, 2019 13:26:19.08 [6688:6224:0308/132619.089:ERROR:component_installer.cc(327)] Failed to read manifest or verify installation for CRLSet (C:\Users\student\AppData\Local\Google\Chrome\User Data\CertificateRevocation\5014).: 지정된 파일을 찾을 수 없습니다. (0x2)
+3월 08, 2019 13:26:28.69 [6688:5296:0308/132628.696:ERROR:browser_process_sub_thread.cc(209)] Waited 138 ms for network service
+
+3월 11, 2019 09:13:41.43 NEW SESSION
+3월 11, 2019 09:13:41.45 [3056:2856:0311/091341.436:ERROR:browser_process_sub_thread.cc(209)] Waited 317 ms for network service
+3월 11, 2019 09:13:59.11 [5268:5372:0311/091359.117:ERROR:browser_process_sub_thread.cc(209)] Waited 148 ms for network service
+3월 11, 2019 09:19:49.62 [4328:5968:0311/091949.628:ERROR:browser_process_sub_thread.cc(209)] Waited 164 ms for network service
+3월 11, 2019 09:19:58.02 [5604:1680:0311/091958.024:ERROR:browser_process_sub_thread.cc(209)] Waited 147 ms for network service
+3월 11, 2019 09:20:09.86 [5260:536:0311/092009.862:ERROR:browser_process_sub_thread.cc(209)] Waited 140 ms for network service
+3월 11, 2019 10:01:57.28 [5488:5840:0311/100157.286:ERROR:browser_process_sub_thread.cc(209)] Waited 227 ms for network service
+3월 11, 2019 10:02:04.02 [7024:7128:0311/100204.024:ERROR:browser_process_sub_thread.cc(209)] Waited 155 ms for network service
+3월 11, 2019 10:05:34.58 [5776:460:0311/100534.589:ERROR:browser_process_sub_thread.cc(209)] Waited 123 ms for network service
+3월 11, 2019 10:06:15.41 [7156:5608:0311/100615.419:ERROR:browser_process_sub_thread.cc(209)] Waited 106 ms for network service
+3월 11, 2019 14:06:11.83 [4404:5204:0311/140611.838:ERROR:browser_process_sub_thread.cc(209)] Waited 431 ms for network service
+3월 11, 2019 14:09:24.35 [5172:6328:0311/140924.351:ERROR:browser_process_sub_thread.cc(209)] Waited 171 ms for network service
+3월 11, 2019 14:13:00.81 [7184:7652:0311/141300.817:ERROR:browser_process_sub_thread.cc(209)] Waited 163 ms for network service
+3월 11, 2019 16:01:49.07 [5892:6644:0311/160149.074:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+3월 11, 2019 16:01:57.71 [5892:6644:0311/160157.714:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+3월 11, 2019 16:02:00.83 [5892:6644:0311/160200.838:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+3월 11, 2019 16:02:04.12 [5892:6644:0311/160204.128:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+3월 11, 2019 16:02:07.37 [5892:6644:0311/160207.369:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+3월 11, 2019 17:41:11.67 [5892:5868:0311/174111.673:ERROR:browser_process_sub_thread.cc(209)] Waited 183 ms for network service
+3월 11, 2019 17:41:46.41 [6820:1488:0311/174146.419:ERROR:browser_process_sub_thread.cc(209)] Waited 91 ms for network service
+3월 11, 2019 17:42:07.07 [6204:6916:0311/174207.076:ERROR:browser_process_sub_thread.cc(209)] Waited 119 ms for network service
+3월 11, 2019 17:43:55.47 [6996:8140:0311/174355.470:ERROR:browser_process_sub_thread.cc(209)] Waited 121 ms for network service
+3월 11, 2019 17:59:55.01 [7356:4204:0311/175955.013:ERROR:browser_process_sub_thread.cc(209)] Waited 67 ms for network service
+
+3월 19, 2019 17:18:03.66 NEW SESSION
+3월 19, 2019 17:18:03.66 [3524:1156:0319/171803.662:ERROR:browser_process_sub_thread.cc(209)] Waited 228 ms for network service
+
+3월 25, 2019 08:57:12.65 NEW SESSION
+3월 25, 2019 08:57:12.65 [2640:5128:0325/085712.641:ERROR:browser_process_sub_thread.cc(209)] Waited 342 ms for network service

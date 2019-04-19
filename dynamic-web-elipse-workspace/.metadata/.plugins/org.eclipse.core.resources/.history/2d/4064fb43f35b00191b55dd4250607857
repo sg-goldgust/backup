@@ -1,0 +1,7 @@
+package edu.autocar.monitor.service;
+
+import java.util.Observable;
+
+public class JpgImageSource extends Observable {
+
+}

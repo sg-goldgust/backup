@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<script src = "js/common.js"></script>
+<style>
+	.active{background-color : yellow;}
+	.header{border:solid-red;}
+</style>
+
+<script> 
+$(function(){
+	var page = location.params.page || 1 ;
+})
+</script>
+</head>
+<body>
+<div class = "container">
+		<ul class = "pagination">
+			<li class = "page-item "><a class = "page-link" href="?page=1">1</a></li>
+			<li class = "page-item "><a class = "page-link" href="?page=2">2</a></li>
+			<li class = "page-item "><a class = "page-link" href="?page=3">3</a></li>
+			<li class = "page-item "><a class = "page-link" href="?page=4">4</a></li>
+			<li class = "page-item "><a class = "page-link" href="?page=5">5</a></li>
+			<li class = "page-item "><a class = "page-link" href="?page=6">6</a></li>
+		</ul>
+</div>
+</body>
+</html>

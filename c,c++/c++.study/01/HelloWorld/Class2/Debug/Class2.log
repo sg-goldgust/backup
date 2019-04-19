@@ -1,0 +1,4 @@
+﻿  Class2.cpp
+  MyData.cpp
+c:\c,c++\c++.study\01\helloworld\class2\mydata.cpp(9): error C2530: 'CMyData::m_nData2': 참조를 초기화해야 합니다.
+  코드를 생성하고 있습니다...

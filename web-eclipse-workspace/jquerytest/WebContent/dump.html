@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<style>
+	s{;}
+</style>
+<script> 
+$(function() { 
+	$.fn.dump = function() {
+		alert("개수 = "+this.length);
+		return this;
+	};
+	$.fn.pagination = function(number) {
+		var ul = $('<ul class = "pagination">').appendTo(this);
+		for (var i=1; i<=number; ++i) {
+			var temp = $(`<li class= "page-item"><a class="page-link" href = "?page=${i}">${i}</a></li>`);
+			temp.appendTo(ul);
+		}
+		return this;
+	};
+	
+	$('#paing').pagination(3);
+	$('p').dump();
+}); 
+</script>
+</head>
+<body>
+	<p>문단1</p>
+	<p>문단2</p>
+	
+	<div id="paing"></div>
+</body>
+</html>

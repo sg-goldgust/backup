@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="edu.autocar.tourguide.dao.TourGuideDao">
+	<select id="getCount" resultType="int"><![CDATA[
+		select count(*) as total from
+		tourguide
+	]]></select>
+
+	<select id="getPage" resultType="TourGuide" parameterType="map"><![CDATA[
+		select tour_id, name, city, region, content, site, homepage 
+		from (
+			select row_number() over (order by tour_id) as seq,
+				tour_id, name, city, region, content, site, homepage
+			from tourguide
+		) where seq between #{start} and #{end}
+	]]></select>
+
+	<select id="selectList" resultType="TourGuide"><![CDATA[
+		select *from tourguide
+	]]></select>
+
+	<select id="selectOne" resultType="TourGuide"
+		parameterType="String"><![CDATA[
+		select * from tourguide
+		where tour_id = #{tourId}
+	]]></select>
+	
+	<select id="selectName" resultType="TourGuide"
+		parameterType="String"><![CDATA[
+		select * from tourguide
+		where name = #{name}
+	]]></select>
+	
+	<select id="search" resultType="TourGuide" parameterType = "map"><![CDATA[
+		select * from 
+			(select * from tourguide 
+		 	where city = #{category})
+		where content like '%${keyword}%'
+	]]></select>
+	
+	<select id="showRegion" resultType="String" ><![CDATA[
+		select distinct city from tourguide
+	]]></select>
+
+	<insert id="insert" parameterType="TourGuide"><![CDATA[
+		insert into tourguide
+		(tour_id, name, city, region, content, site, homepage)
+		values(emp_seq.nextval, #{name}, #{city}, #{region}, #{content}, #{site}, #{homepage})
+	]]></insert>
+
+	<update id="update" parameterType="TourGuide"><![CDATA[
+		update tourguide set
+		tour_id=#{tourId},
+		name=#{name},
+		city=#{city},
+		region=#{region},
+		content=#{content},
+		site=#{site},
+		homepage=#{homepage},
+		where tour_id=#{tourId}
+	]]></update>
+
+	<delete id="delete" parameterType="TourGuide"><![CDATA[
+		delete from tourguide
+		where tour_id = #{tourId}
+	]]></delete>
+
+</mapper>

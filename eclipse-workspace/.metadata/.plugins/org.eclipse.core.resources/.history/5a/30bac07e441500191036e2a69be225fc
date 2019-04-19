@@ -1,0 +1,21 @@
+package lamda.practice;
+
+public class array {
+	
+	public static void main(String[] args) {
+		String arr[] = {
+				"바람",
+				"킹",
+				"범죄"
+		};
+		
+		for (String s : arr) {
+			s= "-----" + s;
+		}
+		
+		for(String s : arr ) {
+			System.out.println(s);
+		}
+	}
+
+}

@@ -1,0 +1,57 @@
+package edu.autocar.monitor.service;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Observable;
+
+import javax.annotation.PostConstruct;
+
+import org.apache.commons.io.output.ByteArrayOutputStream;
+
+public class JpgImageSource extends Observable {
+
+	String[] images = {
+
+	};
+	int ix = -1;
+	List<byte[]> imageByteList = new ArrayList<byte[]>();
+
+	public byte[] readImage(String fname) throws Exception {
+		Path path = Paths.get("c:/temp", fname);
+		try (ByteArrayOutputStream baos = new ByteArrayOutputStream();) {
+			Files.copy(path, baos);
+			return baos.toByteArray();
+		}
+	}
+
+	// 초기화 메서드, 생성되고 나서 바로 호출된다.
+	@PostConstruct
+	public void init() {
+		for (String name : images) {
+			try {
+				imageByteList.add(readImage(name));
+			} catch (Exception e) {
+				System.err.println("there was a problem loading the images.");
+			}
+		}
+		new Thread(this::run).start();
+	}
+
+	public void run() {
+		try {
+			while (true) {
+				Thread.sleep(1000);
+				ix = (ix + 1) % images.length;
+				byte[] image = imageByteList.get(ix);
+				// Observer에게 통보
+				setChanged();
+				notifyObservers(image);
+			}
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+}

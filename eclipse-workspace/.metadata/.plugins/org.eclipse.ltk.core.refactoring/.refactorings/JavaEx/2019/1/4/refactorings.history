@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ReceiverThread.java&apos; to &apos;JavaEx/src/multichat&apos;&#x0D;&#x0A;- Original project: &apos;JavaEx&apos;&#x0D;&#x0A;- Destination element: &apos;JavaEx/src/multichat&apos;&#x0D;&#x0A;- Original element: &apos;chatbot.ReceiverThread.java&apos;" description="Copy compilation unit" destination="/src&lt;multichat" element1="/src&lt;chatbot{ReceiverThread.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1548208061389" units="1" version="1.0"/>
+</session>

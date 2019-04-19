@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;edu.autocar.tourguide.database&apos; to &apos;iotmonitor/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;tourguide&apos;&#x0D;&#x0A;- Destination element: &apos;iotmonitor/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;tourguide/src/main/java/edu.autocar.tourguide.database&apos;" description="Copy package" destination="=iotmonitor/src\/main\/java" element1="/src\/main\/java&lt;edu.autocar.tourguide.database" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1548307879594" version="1.0"/>
+</session>

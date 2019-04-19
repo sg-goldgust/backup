@@ -1,0 +1,3 @@
+﻿  chapter2ex2.c
+c:\c,c++\c.study\03\chapter2ex2\chapter2ex2\chapter2ex2.c(13): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  chapter2ex2.vcxproj -> C:\c,c++\c.study\03\chapter2ex2\Debug\chapter2ex2.exe

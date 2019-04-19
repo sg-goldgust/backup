@@ -1,0 +1,21 @@
+package app;
+
+import domain.ImageItem;
+import domain.SearchResult;
+
+public class Ex01 {
+	public static void main(String[] args) {
+		try {
+			NaverImageApi api = new NaverImageApi();
+			SearchResult res = api.get("ÀÚµ¿Â÷");
+			System.out.println(res);
+			
+			for(Object image : res.getItems()) {
+				System.out.println(image);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

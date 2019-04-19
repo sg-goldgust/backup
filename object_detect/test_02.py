@@ -1,0 +1,12 @@
+import numpy as numpy
+import cv2
+def image_to_array(image_path) :
+    image = cv2.imread(image_path)
+    print(image.type)
+    return image
+
+def get_detect_image(image_path) :
+    image = image_to_array(image_path)
+    image_ex = np.copy(image)
+
+    return image, np.expand_dims(image_ex, axis=0)

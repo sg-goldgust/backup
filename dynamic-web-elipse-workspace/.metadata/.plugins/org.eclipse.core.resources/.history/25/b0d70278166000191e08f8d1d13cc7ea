@@ -1,0 +1,7 @@
+package edu.autocar.websocket;
+
+import org.springframework.web.socket.handler.BinaryWebSocketHandler;
+
+public class CameraHandler extends BinaryWebSocketHandler {
+
+}

@@ -1,0 +1,20 @@
+package edu.autocar.start;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class CameraController {
+	
+	@GetMapping("/monitor")
+	public void monitor() {
+		
+	}
+	
+	@GetMapping("/camera")
+	public void camera() {
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+	integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	crossorigin="anonymous">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<style>
+s {;
+	
+}
+</style>
+<script> 
+
+var category = {
+		'의류' : {
+			'바지' : ['바지1','바지2','바지3'],
+			'점퍼' : ['점퍼1','점퍼2','점퍼3'],
+			'코트' : ['코트1','코트2','코트3']
+		}
+		'신발' : {
+			'등산화' : ['등산화1','등산화2','등산화3'],
+			'운동화' : ['운동화1','운동화2','운동화3'],
+			'브랜드' : ['브랜드1','브랜드2','브랜드3']
+		}
+		'컴퓨터' : {
+			'데스크탑' : ['데스크탑1','데스크탑2','데스크탑3'],
+			'노트북' : ['노트북1','노트북2','노트북3'],
+			'브랜드' : ['브랜드1','브랜드','ㅍ브랜드3']
+		}
+}
+
+function fillSelect(select,c) {
+	select.append('<option>--선택하세요--</option>');
+	c.forEach(function(e) {
+		$(`<option>${e}</option>`).appendTo(select);
+	});
+}
+
+$(function() { 
+	$('#catagory1 option : selected').
+	
+	$('#catagory2').change(function() {
+		$('#category3, #final').empty();
+		
+		sel2 = 
+	})
+	
+}); 
+</script>
+</head>
+<body>
+	<h1>상품</h1>
+	카테고리 :
+	<select id = "category1"></select>
+	<select id = "category2"></select>
+	<select id = "category3"></select>
+	<hr>
+	최종선택  : 
+</body>
+</html>

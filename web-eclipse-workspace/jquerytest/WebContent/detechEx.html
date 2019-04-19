@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<style>
+	s{;}
+</style>
+<script> 
+$(function() {
+	$('#장터').find("p").click(function() {
+		var item = $(this);
+		console.log(item);
+		var para = item.detach();
+		alert("item 클릭");
+		item.appendTo('#장바구니');
+		$(function();
+		
+	})
+	
+	$('#장바구니').find("p").click(function() {
+		var item = $(this);
+		console.log(item);
+		var para = item.detach();
+		alert("장바구니에서 item 클릭");
+		item.appendTo('#장터');
+		
+	})
+	
+}); 
+</script>
+</head>
+<body>
+	<div id = "장터">
+		<p> item1 </p>
+		<p> item2 </p>
+		<p> item3 </p>
+		<p> item4 </p>
+		<p> item5 </p>
+	</div>
+	<div style = "background-color : yellow";>======</div>
+	<div id = "장바구니">
+	</div>
+</body>
+</html>

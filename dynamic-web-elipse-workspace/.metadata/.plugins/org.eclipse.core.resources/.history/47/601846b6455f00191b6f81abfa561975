@@ -1,0 +1,18 @@
+package edu.autocar.websocket;
+
+import org.springframework.web.socket.TextMessage;
+import org.springframework.web.socket.WebSocketSession;
+import org.springframework.web.socket.handler.TextWebSocketHandler;
+
+public class EchoHandler extends TextWebSocketHandler {
+	@Override
+	protected void handleTextMessage(WebSocketSession session, TextMessage message) throws Exception {
+		
+		//순수하게 websocket만 관리하는 session이다.
+		// TODO Auto-generated method stub
+		String rcvMsg = message.getPayload(); //수신된 메세지를 꺼내고
+		//전송한다
+		TextMessage sendMsg = new TextMessage(rcvMsg);
+		session.sendMessage(sendMsg);
+	}
+}

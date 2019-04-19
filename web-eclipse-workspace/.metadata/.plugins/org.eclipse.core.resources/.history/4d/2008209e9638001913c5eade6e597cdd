@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<style>
+
+</style>
+</head>
+<body>
+	<div class = "container">
+		<div class = "jumbotron">
+			<h1>Bootstrap Tutorial</h1>
+			<p>Bootstrap is the most popult framework for developing resposive web</p>
+		</div>
+		
+		<p>this is some text </p>
+		
+		<div class = "well well-sm">small well</div>
+		<div class = "well">normal well</div>
+		<div class = "well well-lg">large well</div>
+		
+		<div class="alert alert -success" >
+			this alert box is successful
+			<a href = "#" class = "close" data-dismiss = "alert"
+				aria-label = "close">&times;</a>
+		</div>
+		
+		
+	</div>
+	
+	
+</body>
+</html>

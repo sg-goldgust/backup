@@ -1,0 +1,5 @@
+package edu.autocar.monitor.service;
+
+public class JpgImageSource {
+
+}

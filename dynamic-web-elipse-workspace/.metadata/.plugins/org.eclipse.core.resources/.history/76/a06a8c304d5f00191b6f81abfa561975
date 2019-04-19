@@ -1,0 +1,14 @@
+package edu.autocar.domain;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+public class CarMessage {
+	String msgType ;
+	String target ;
+	String lat ;
+	String lng ;
+	
+}

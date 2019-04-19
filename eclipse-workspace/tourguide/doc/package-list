@@ -1,0 +1,13 @@
+edu.autocar.base
+edu.autocar.base.command
+edu.autocar.base.database
+edu.autocar.base.menu
+edu.autocar.base.sec
+edu.autocar.base.util
+edu.autocar.tourguide
+edu.autocar.tourguide.app
+edu.autocar.tourguide.command
+edu.autocar.tourguide.dao
+edu.autocar.tourguide.database
+edu.autocar.tourguide.domain
+edu.autocar.tourguide.service

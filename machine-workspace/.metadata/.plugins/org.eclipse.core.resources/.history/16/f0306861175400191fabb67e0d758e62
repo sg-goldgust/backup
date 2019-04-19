@@ -1,0 +1,14 @@
+package service;
+
+public class FileUtil {
+	static String readString(InputStream in) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(in));
+		String inputLine;
+		StringBuffer response = new StringBuffer();
+		while ((inputLine = br.readLine()) != null) {
+		response.append(inputLine);
+		}
+		br.close();
+		return response.toString();
+
+}
